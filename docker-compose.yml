@@ -1,0 +1,10 @@
+version: '2.2'
+
+services:
+  group_chat_c:
+    image: chatster/api-group-chat-c
+    build: .
+    container_name: group_chat_c
+    ports:
+      - 7000:7000
+      - 2980:2980
